@@ -1,11 +1,11 @@
 import mongoose from "mongoose";
 
 const articleSchema = new mongoose.Schema({
-    title:  String,
+    title: String,
     description: String,
-    image_url: String,
+    image: String,
     views: Number,
     category: String
-},{timestamps:true});
+}, { timestamps: true });
 
 export default mongoose.model("Article", articleSchema);
