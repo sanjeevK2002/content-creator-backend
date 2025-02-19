@@ -1,6 +1,6 @@
 import express from "express";
-import upload from "../middleware/uploadMiddleware.js";
-import { uploadArticle } from "../controllers/articleController.js";
+import upload from "../app/middleware/uploadMiddleware.js";
+import { uploadArticle } from "../app/controllers/articleController.js";
 
 const articlerouter = express.Router();
 

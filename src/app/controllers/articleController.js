@@ -1,5 +1,5 @@
-import Article from "../collectios/articleModel.js";
-import cloudinary from "../config/cloudinaryConfig.js";
+import Article from "../models/articleModel.js";
+import cloudinary from "../../config/cloudinaryConfig.js";
 import fs from "fs";
 
 export const uploadArticle = async (req, res) => {

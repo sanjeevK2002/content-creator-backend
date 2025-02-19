@@ -1,5 +1,5 @@
-import Video from "../collectios/videoModel.js";
-import cloudinary from "../config/cloudinaryConfig.js";
+import Video from "../models/videoModel.js";
+import cloudinary from "../../config/cloudinaryConfig.js";
 import fs from "fs";
 
 export const uploadVideo = async (req, res) => {

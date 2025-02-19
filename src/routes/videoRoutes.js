@@ -1,6 +1,6 @@
 import express from "express";
-import upload from "../middleware/uploadMiddleware.js";
-import { uploadVideo } from "../controllers/videoController.js";
+import upload from "../app/middleware/uploadMiddleware.js";
+import { uploadVideo } from "../app/controllers/videoController.js";
 
 const videorouter = express.Router();
 
